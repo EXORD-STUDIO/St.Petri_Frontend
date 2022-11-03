@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Pragmatica';
+    font-style: medium;
+    src: local('Pragmatica'), url(../assets/fonts/PragmaticaMedium.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Warownia';
+    font-style: bold;
+    src: local('Warownia'), url(../assets/fonts/WarowniaBdExt.otf) format('truetype');
+}
+
+:root {
+    font-family: "Warownia", "Pragmatica", Arial, Helvetica, sans-serif;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    margin: 60px;
+}
+
+.content {
+    position: relative;
+    max-height: 94vh;
+    min-height: 92vh
+}
+
+.upper {
+    transform: translateY(-40px);
+}
+
+h1 {
+    color: black;
+    width: 100%;
+    font-size: 10.5vw;
+    letter-spacing: -6px;
+}
